@@ -7,8 +7,8 @@ function getWeather() {
         return;
     }
 
-    const currentWeatherUrl = `https://openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
-    const forecastUrl = `https://openweathermap.org/data/2.5/forcast?q=${city}&appid=${apiKey}`;
+    const currentWeatherUrl = `//this is where my weather website url will be ${city} ${apiKey}`;
+    const forecastUrl = `//this is where my weather website url will be ${city} ${apiKey}`;
 
 
 
