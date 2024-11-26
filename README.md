@@ -6,6 +6,8 @@ This App was created using html css and js only
 <h2 align="center">Future Ideas </h2>
 
 1. Redo this app using React.
+   <br>
+2. Refactor code so that user can access data through a database.
 
 <h2 align="center">Steps to preview app in Github Pages</h2>
 
