@@ -15,7 +15,7 @@ function getWeather() {
 
 
 fetch (currentWeatherUrl)
-    .then(response => response.jason())
+    .then(response => response.json())
     .then(data => {
         displayWeather(data);
     })
@@ -25,7 +25,7 @@ fetch (currentWeatherUrl)
     });
 
     fetch(forecastUrl)
-    .then (response => response.jason())
+    .then (response => response.json())
     .then(data => {
         displayHourlyForecast(data.list);
     })
@@ -55,7 +55,7 @@ fetch (currentWeatherUrl)
             const temperature = Math.round(data.main.temp - 273.15);
             const description = data.weather[0].description;
             const iconCode = data.weather[0].icon;
-            const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@4x.png`;
+            const iconUrl = `${iconCode}@4x.png`;
         
             const temperatureHtml = ` <p> ${temperature}C </p>`;
             const weatherHtml = ` <p>${cityName}</p> <p>${description}</p>`;
@@ -78,7 +78,7 @@ fetch (currentWeatherUrl)
             const hour = dateTime.getHours();
             const temperature = Math.round(item.main.temp - 273.15);
             const iconCode = item.weather[0].icon;
-            const iconUrl = `https://openweathermap.org/img/wn/${iconCode}.png`;
+            const iconUrl = `${iconCode}.png`;
 
             const hourlyItemHtml = `
             <div class="hourly-item>
