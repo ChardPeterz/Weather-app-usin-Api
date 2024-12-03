@@ -1,4 +1,4 @@
-<h1 align="center">Weather-app-using-Api </h1>
+<h1 align="center">Weather-App-using-Api </h1>
 
 This App was created using html, css and js.
 
