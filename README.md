@@ -14,5 +14,5 @@ This App was created using html, css and js.
 - Fork this repo.
 - Create new branch.
 - Input personal weather app API key.
-- Push your changes from personal branch to personal main branch
+- Push your changes from personal branch to personal main branch.
 - On push to main branch command will run in actions tab to create a static webpage and provide url link
